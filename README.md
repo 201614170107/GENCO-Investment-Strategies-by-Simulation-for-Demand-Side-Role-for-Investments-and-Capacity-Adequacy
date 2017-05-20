@@ -7,6 +7,20 @@ Power system reliability, at the transmission level, combined with unit commitme
 
 The paper will discuss the simulation process and program functions in detail. High-level flow charts along with pseudo code and tables, will explain the program components. An example simulation will then be presented to illustrate the simulation process. A few different scenarios based on customized settings in the submenus will be presented along with summaries. Applicable uses, enhancements, and other possible program functions will be discussed. Lastly, some concluding remarks will summarize the project work. Appendices contain all applicable code.  
 
+ Requirements  
+ 
+To run the Power Sim Investment program correctly the following are required:  
+
+• MATLAB Student Version v13 or greater (developed on v14) • Optimization Toolbox  • Matpower  • Computer running at least 512 MB RAM (1 GB recommended)  
+
+To install the program, create a directory in your MATLAB workspace directory called “PowerSimInvestor”.  Copy and paste the project files to this directory. Open the MATLAB program and set a path to the “PowerSimInvestor” folder.   
+
+On the command prompt type “mainmenu” >>mainmenu
+
+If MATLAB fails to recognize this command, you need to review installation and documentation for further assistance
+
+PowerSim.zip contains all the files
+
 V.  Conclusions  
 
  The power simulation project was definitely a challenge to achieve and took many days of development and testing. The results have been a success to the purpose of the project: to study the effects of investments, demand-price responsiveness, competition, and reliability in a power system. A small 9-bus system with 8 transmission lines was choosen as the test case. The program can further be modified to include a larger system. Furthermore, the program could also be upgraded to allow investments on new transmission lines in the system.   
